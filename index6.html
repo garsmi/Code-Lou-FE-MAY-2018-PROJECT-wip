@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <title>garsmi</title>
+    <!-- link to my CSS -->
+     <link rel="stylesheet" href="./css/styles2.css">
+
+     <!-- Link to google fonts  -->
+      <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Roboto+Slab" rel="stylesheet">
+
+  </head>
+    <!-- Bootstrap Navbar -->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#top">Garrett Smith</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+</nav> <!-- end navbar -->
+
+  <body>
+  <!-- bootstrap jumbotron  -->
+  <!-- bootstrap jumbotron fluid makes the banner full width and without the rounded corners
+      banner is a custom css class i made to add a background img  -->
+    <div class="jumbotron jumbotron-fluid banner">
+        <div class="container">
+        <!-- display 4 is a bootstrap typography class basically they are headers but bigger.
+             Lead is about the size of a h1, but the typeface is thinner.      -->
+          <h1 class="display-4">I'm Garrett Smith</h1>
+          <p class="lead">I want to help you make cool stuff.</p>
+        </div>
+    </div>
+
+
+    <div class="container back" >
+      <div class="row" "row align-items-start">
+        <div class="col-lg py-5">
+            <h3 class="mb-4" id='about'>What Do I Do?</h3>
+            <img class="mb-4 img-fluid rounded" src="./img/me2.jpg" alt="Self Portrait">
+        </div> <!-- close col div -->
+        <div class="col-lg py-5">
+            <p> I am Garrett Smith, a graphic designer/ art dude out of Louisville, Kentucky.
+              I am currently employed at Memetech, a screenprinting shop as the General Manager / Lead Designer.
+              I freelance design and illustrations on the side and am currently enrolled in Code Louisville's Front End Web Development course.   </p>
+
+            <p> I have worked with clients such as University of Louisville,
+              University of Kentucky, Lydia House, Lou A Bull, Cumberland Brews, Home Skateshop and Lebowski Fest.   </p>
+
+            <p> I enjoy working one on one with clients from consultation to final production .   My clients get exactly what they need, when they need it.
+              I dont mean to sound like a used cars salesman, I just want you to know that I take this serious. I love what I do, and I would love to work for you.  </p>
+
+            <p> Down below you can check out my portfolio and contact me. Thank you for looking at my site. </p>
+
+        </div> <!-- close col div -->
+      </div> <!-- close row div -->
+
+      <div class="row" "row align-items-start 5 ">
+          <div class="col-lg">
+              <h3 class="mb-4" id='portfolio'>Portfolio</h3>
+          <p>Here is some of the stuff I make. </p>
+          <!-- close col div for buttons
+          bootstrap buttons have predefined effects like a hover state, beveling effect, etc.
+          btn btn-secondary btn-lg btn-block =  dark grey large block level buttons that  span the full width of a parent
+        data-toggle="modal" data-target="#contactForm" = setting these buttons to open indivudal modals that will serve as img galleries   -->
+
+          <button type="button" class="btn btn-secondary btn-lg btn-block mb-4" data-toggle="modal" data-target="#illgallery">illustrations</button>
+
+                <!-- Bootstrap Modal  coded to use as an img gallery -->
+
+                          <div class="modal" id="illgallery" tabindex="-1" role="dialog">
+                            <div class="modal-dialog modal-lg" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Illustrations</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <p> Below you will find various illustrations I have made over the years.   </p>
+                                  <h2> Client Work </h2>
+
+                                      <img src="./img/rushmore-4.jpg" class="mb-4 img-fluid rounded" alt="rushmoore">
+                                      <img src="./img/autobahn.jpg" class="mb-4 img-fluid rounded" alt="autobahn">
+                                      <img src="./img/kiss.png" class="mb-4 img-fluid rounded" alt="kiss">
+                                      <img src="./img/sarsaparilla.jpg" class="mb-4 img-fluid rounded" alt="sarsaparilla">
+                                      <img src="./img/marvelous-proof.jpg" class="mb-4 img-fluid rounded" alt="<marvelous for LF">
+                                      <img src="./img/homedeck.jpg" class="mb-4 img-fluid rounded" alt="Deck Design for Home Skateshop">
+                                      <img src="./img/UK Greatest Bball Tradition 1.jpg" class="mb-4 img-fluid rounded" alt="<UK Greatest Bball Tradition 1">
+                                      <img src="./img/UK Greatest Bball Tradition ALT.jpg" class="mb-4 img-fluid rounded" alt="<UK Greatest Bball Tradition ALT">
+                                      <img src="./img/middle-finger-4.jpg" class="mb-4 img-fluid rounded" alt="<Middle Finger for Tyler Gill">
+                                      <img src="./img/brokeback-mountain-brook-color-4.jpg" class="mb-4 img-fluid rounded" alt="<brokeback-mountain-brook for Lou A Bull">
+                                      <img src="./img/LL26-FINAL-CD.jpg" class="mb-4 img-fluid rounded" alt="Quality Cable Album Art">
+
+
+
+
+                                  <h2> Personal Work </h2>
+                                      <img src="./img/skull-friend-horns.jpg" class="mb-4 img-fluid rounded" alt="skull-friend-horns">
+                                      <img src="./img/city.png" class="mb-4 img-fluid rounded" alt="city">
+                                      <img src="./img/skull-bal.jpg" class="mb-4 img-fluid rounded" alt="skull balloons">
+                                      <img src="./img/tiger-zone.jpg" class="mb-4 img-fluid rounded" alt="tigers">
+                                      <img src="./img/occult-zone-3-sq.jpg" class="mb-4 img-fluid rounded" alt="occult">
+                                      <img src="./img/space-skull-zone.jpg" class="mb-4 img-fluid rounded" alt="space skull">
+                                      <img src="./img/skull-island-zone.jpg" class="mb-4 img-fluid rounded" alt="skull island">
+                                      <img src="./img/horse-skull-luck-2-3.jpg" class="mb-4 img-fluid rounded" alt="luck">
+                                      <img src="./img/chill-vibes-and-friendship-1.jpg" class="mb-4 img-fluid rounded" alt="chill-vibes-and-friendship 1">
+                                      <img src="./img/chill-vibes-and-friendship-2.jpg" class="mb-4 img-fluid rounded" alt="chill-vibes-and-friendship-2">
+                                      <img src="./img/balloon-zone.jpg" class="mb-4 img-fluid rounded" alt="balloon-zone">
+
+                                      <img src="./img/mummy-zone.jpg" class="mb-4 img-fluid rounded" alt="mummy-zone">
+                                      <img src="./img/noseratdude.jpg" class="mb-4 img-fluid rounded" alt="noseratdude">
+                                      <img src="./img/mood ring pink cigarette.jpg" class="mb-4 img-fluid rounded" alt="mood ring pink cigarette">
+                                      <img src="./img/mood-ring-vhs.jpg" class="mb-4 img-fluid rounded" alt="mood-ring-vhs">
+
+                                      <img src="./img/tiger-zone-skull.jpg" class="mb-4 img-fluid rounded" alt="tiger skull no thanks">
+                                      <img src="./img/trump-zone-2018-3.jpg" class="mb-4 img-fluid rounded" alt="trump shithole sticker">
+                                      <img src="./img/ZONES-MOON.png" class="mb-4 img-fluid rounded" alt="ZONES-MOON">
+
+
+                                </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">CLOSE</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+          <button type="button" class="btn btn-secondary btn-lg btn-block mb-4" data-toggle="modal" data-target="#typegallery"> Logos, Typography, & Layouts</button>
+
+          <!-- Bootstrap Modal  coded to use as an img gallery -->
+
+                    <div class="modal" id="typegallery" tabindex="-1" role="dialog">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">Logo and Typography</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Logos and stuff.
+
+                              <div>
+
+                                      <img class="mb-4 img-fluid rounded" src="./img/flightbros.jpg" alt="Flight Brothers Brewing Logo">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/harpers.jpg" alt="Harpers Garden Logo">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/Label-Proofs-1.jpg" alt="Harpers Garden Labels">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/sb-logo.jpg" alt="sb-logo">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/louabull.jpg" alt="louabull logo">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/sound-blaster-logo.jpg" alt="sound-blaster-logo">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/Dreams-and-Passions_FINAL_FULL-COLOR.jpg" alt="Dreams-and-Passions logo">
+
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/brain-check-3.jpg" alt="brain-check beer label">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/bad-and-boozie-final-cs5.jpg" alt="bad-and-boozie beer label">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/bad-girl-2.jpg" alt="bad-girl stout beer labels">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/neo-cow_FINAL.jpg" alt="neo-cow_FINAL">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/fananas-boster-2000.jpg" alt="fananas-boster-label">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/ghost-pep-2.jpg" alt="ghost-pep-2 Labels">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/gift-from-the-grave.jpg" alt="gift-from-the-grave">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/left-hand-cooking-WORKABLE--3.png" alt="left-hand-cooking">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/mood ring sfff.png" alt="mood ring sfff">
+
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/FLYER-FINAL.jpg" alt="Double Eve 2015 FLYER-FINAL">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/Double Eve 2016 2 Party College.png" alt="Double Eve 2016 2 Party College">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/Double Eve 2016 FINAL.png" alt="Double Eve 2016 FINAL">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/Double Eve 2017 FINAL.png" alt="Double Eve 2017 FINAL">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/farmposter.jpg" alt="farmposter for Bardstown Rd Farmers Market">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/night-school_8.5x11 proof 1.png" alt="night-school_8.5x11 for BRENDA">
+                                      <img class="mb-4 img-fluid rounded" src="./img/logo/night-school_11x17-proof-1.png" alt="night-school_11x17 for BRENDA">
+                          </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">CLOSE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+      </div> <!-- close col div for buttons -->
+
+
+
+          <div class="col-lg py-5">
+            <img class="mb-4 img-fluid rounded" src="./img/sea-zone2.jpg" alt="Sea Horse Illustration">
+         </div> <!-- close col div -->
+      </div> <!-- close row div -->
+
+      <div class="row" "row align-items-start 5 ">
+          <div class="col-lg">
+              <h3 class="mb-4" id='contact'>Contact</h3>
+          <p> Hope you enjoyed my work, thanks again for your time. If you are interested in hiring me, please click the button below. </p>
+
+          <button type="button" class="btn btn-secondary btn-lg mb-5 " data-toggle="modal" data-target="#contactForm">CONTACT</button>
+
+        </div> <!-- close col div -->
+     </div> <!-- close row div -->
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap Modal Contact form
+  A modal is like an animated alert in bootstrap. -->
+
+          <div class="modal" id="contactForm" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Contact</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Like My stuff? Just wanna chat? Send me a message.</p>
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" Nick Phipps">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address</label>
+                      <input type="Email" class="form-control" id="exampleFormControlInput1" placeholder="311wasaninsidejob@hotmail.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Subject</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Stuff">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">What Can I Help You With?</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary">Send</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Nevermind</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div> <!-- close container div -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+
+  <!-- footer stuff -->
+  <div class="row" "row align-items-start">
+      <div class="col-lg foot mt-5">
+
+      </div> <!-- close col div -->
+   </div> <!-- close row div -->
+
+</html>

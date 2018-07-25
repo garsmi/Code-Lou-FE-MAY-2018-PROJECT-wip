@@ -1,0 +1,52 @@
+body {
+  background-color: #ABBAC4;
+}
+
+/* #393888 blue color
+   #ABBAC4 grey color
+   #FFE368 yellow color
+ */
+
+ /*****  fonts*****/
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.back {
+  background: #ABBAC4;
+  padding: 200px
+  margin: 25px;
+  border: 50px solid #white;
+}
+
+
+/** below = gives jumbotron a background img **/
+
+.banner {
+    background-image: url("../img/clouds2.jpg");
+    background-color: #393887;
+    background-size: cover;
+    margin-bottom: 0;
+    height: 100vh; /** vh = viewport height. I want the jumbo to be the first thing viewers see on splash. **/
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #FFE368;
+}
+
+
+
+.foot {
+  background-color: #343a40;
+  width: 100vw;
+  height: 5em;
+  margin: auto
+
+}
